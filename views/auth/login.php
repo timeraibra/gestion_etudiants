@@ -102,6 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         font-size: 14px;
         text-align: center;
     }
+    
 </style>
 
 <div class="login-wrapper">
@@ -132,6 +133,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <button type="submit">Se connecter</button>
 
         </form>
+
+        <!-- 🔥 AJOUT : lien vers la page d'inscription -->
+        <div class="text-center mt-3">
+            <a href="index.php?page=register">Créer un compte</a>
+        </div>
 
     </div>
 </div>

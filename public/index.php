@@ -77,6 +77,10 @@ switch ($page) {
         require_once '../views/etudiants/delete.php';
         break;
 
+    case 'register':
+        require_once '../views/auth/register.php';
+        break;    
+
     case 'logout':
         // 🔐 Déconnexion utilisateur
         session_destroy();
